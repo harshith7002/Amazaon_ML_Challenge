@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+__MACOSX/
+Thumbs.db
+ehthumbs.db
+
+# Datasets (Large files >100MB cannot be pushed to GitHub)
+dataset/
+**/dataset/
+*.tsv
+!student_resource/output/matching_results.tsv
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
